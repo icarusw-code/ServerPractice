@@ -2,66 +2,46 @@
 
 namespace ServerCore
 {
-    // 메모리 베리어
-    // A) 코드 재배치 억제
-    // B) 가시성
-
-    // 1) Full Memory Barrier(ASM MFENCE, C# Thread.MemoryBarrier) : Store/Load 둘다 막는다.
-    // 2) Store Memory Barrier(ASM SFENCE) : Store만 막는다.
-    // 3) Load Memory Barrier(ASM LFENCE) : Load만 막는다.
-
     class Program
     {
-        static int x = 0;
-        static int y = 0;
-        static int r1 = 0;
-        static int r2 = 0;
-
-        // 문제점 : 하드웨어 최적화가 되면서 순서가 뒤바뀌어서 실행한다.
+        static int number;
+       
         static void Thread_1()
         {
-            y = 1; // Store y
-
-            // ----------------------------
-            Thread.MemoryBarrier();
-            
-            r1 = x; // Load x   
+            for (int i = 0; i < 100000; i++)
+            {
+                // All or Nothing
+                // 동시 다발적이여도 순서가 생긴다.
+                Interlocked.Increment(ref number);
+                //number++;
+            }
         }
 
         static void Thread_2()
         {
-            x = 1; // Store x
-
-            // ----------------------------
-            Thread.MemoryBarrier();
-
-            r2 = y; // Load y
+            for (int i = 0; i < 100000; i++)
+            {
+                Interlocked.Decrement(ref number);
+                //number--;
+            }
         }
-
 
         static void Main(string[] args)
         {
-            int count = 0;
+            // atomic = 원자성
+            // number++;
+            // int temp = number;
+            // temp += 1;
+            // number = temp;
             
-            while (true)
-            {
-                count++;
-                x = y = r1 = r2 = 0;
+            Task t1 = new Task(Thread_1);
+            Task t2 = new Task(Thread_2);
+            t1.Start();
+            t2.Start();
 
-                Task t1 = new Task(Thread_1);
-                Task t2 = new Task(Thread_2);
+            Task.WaitAll(t1, t2);
 
-                t1.Start();
-                t2.Start();
-
-                Task.WaitAll(t1, t2);
-
-                if (r1 == 0 && r2 == 0)
-                    break;
-
-            }
-
-            Console.WriteLine($"{count}번만에 빠져 나옴!");
+            Console.WriteLine(number);
         }
 
     }
