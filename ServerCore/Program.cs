@@ -4,40 +4,40 @@ namespace ServerCore
 {
     class Program
     {
-        // 최적화 하지말아라.(C#에서는 사용 지양 부가적 기능이 많음)
-        // Release 모드에서는 최적화가 되어서 코드가 다르게 실행될 수 도 있다.
-        volatile static bool _stop = false;
-
-        static void ThreadMain()
-        {
-            Console.WriteLine("쓰레드 시작!");
-
-            while (_stop == false)
-            { 
-                // 누군가가 stop 신호를 해주기를 기다린다.
-            }
-                
-
-            Console.WriteLine("쓰레드 종료!");
-            
-        }
-
         static void Main(string[] args)
         {
-            Task t = new Task(ThreadMain);
-            t.Start();
+            int[,] arr = new int[10000, 10000];
+         
+            // 인접한 곳을 미리 가지고 있기 때문에 시간이 더 빠르다.
+            {
+                long now = DateTime.Now.Ticks;
+                for (int y = 0; y < 10000; y++)
+                {
+                    for (int x = 0; x < 10000; x++)
+                    {
+                        arr[y, x] = 1;
+                    }
+                }
 
-            // 1초간 잠시 멈춤
-            Thread.Sleep(1000);
+                long end = DateTime.Now.Ticks;
+                Console.WriteLine($"(y,x) 순서 걸린 시간 {end - now}");
+            }
 
-            _stop = true;
+            // 캐시를 활용할 수 없는 코드.
+            {
+                long now = DateTime.Now.Ticks;
+                for (int y = 0; y < 10000; y++)
+                {
+                    for (int x = 0; x < 10000; x++)
+                    {
+                        arr[x, y] = 1;
+                    }
+                }
+                long end = DateTime.Now.Ticks;
+                Console.WriteLine($"(x,y) 순서 걸린 시간 {end - now}");
+            }
 
-            Console.WriteLine("Stop 호출!");
-            Console.WriteLine("종료 대기중");
 
-            t.Wait();
-            
-            Console.WriteLine("종료 성공");
         }
 
     }
