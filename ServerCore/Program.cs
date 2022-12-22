@@ -2,55 +2,21 @@
 
 namespace ServerCore
 {
-    class SpinLock
+    class Lock
     {
-
-        volatile int _locked = 0;
+        // 처음에 연 상태로 시작할지, 닫힌 상태일지 결정
+        //AutoResetEvent _available = new AutoResetEvent(true);
+        ManualResetEvent _available = new ManualResetEvent(true);
 
         public void Acquire()
         {
-            //while (_locked == 0)
-            //{
-            //    // 잠김이 풀리기를 기다린다.
-            //}
-
-            //// 내꺼!
-            //_locked = 0;
-
-            while (true)
-            {
-                //int original = Interlocked.Exchange(ref _locked, 1);
-                //if (original == 0)
-                //    break;
-
-                // 위와 같은 말
-                //{
-                //    int original = _locked;
-                //    _locked = 1;
-                //    if (original == 0)
-                //        break;
-                //}
-
-                // ====================================================
-
-                // CAS Compare-And-Swap
-                //if(_locked == 0)
-                //    _locked = 1
-                int expected = 0;
-                int desired = 1;
-                if (Interlocked.CompareExchange(ref _locked, desired, expected) == expected)
-                    break;
-
-                //쉬다 올게
-                //Thread.Sleep(1); // 무조건 휴식 => 무조건 1ms정도 쉬고 싶어요
-                //Thread.Sleep(0); // 조건부 양보 => 나보다 우선순위가 낮은 애들한테는 양보 불가, 우선순위가 나보다 같거나 높은 쓰레드가 없으면 다시 본인한테
-                Thread.Yield(); // 관대한 양보 => 관대하게 양보할테니,지금 실행이 가능한 쓰레드가 있으면 실행하세요 => 실행 가능한 애가 없으면 남은 시간 소진
-            }
+            _available.WaitOne(); // 입장 시도
+            _available.Reset(); // 문을 닫는다.
         }
 
         public void Release()
         {
-            _locked = 0;
+            _available.Set(); // flag = true 로 만듬 // 문을 열어준다.
         }
     }
 
@@ -58,7 +24,7 @@ namespace ServerCore
     {
         static int _num = 0;
 
-        static SpinLock _lock = new SpinLock();
+        static Lock _lock = new Lock();
 
         static void Thread_1()
         {
