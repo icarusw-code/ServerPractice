@@ -1,0 +1,15 @@
+D:\Unity_Project\서버\Server\DummyClient\bin\Debug\net6.0\DummyClient.exe
+D:\Unity_Project\서버\Server\DummyClient\bin\Debug\net6.0\DummyClient.deps.json
+D:\Unity_Project\서버\Server\DummyClient\bin\Debug\net6.0\DummyClient.runtimeconfig.json
+D:\Unity_Project\서버\Server\DummyClient\bin\Debug\net6.0\DummyClient.dll
+D:\Unity_Project\서버\Server\DummyClient\bin\Debug\net6.0\DummyClient.pdb
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.csproj.AssemblyReference.cache
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.AssemblyInfoInputs.cache
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.AssemblyInfo.cs
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.csproj.CoreCompileInputs.cache
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.dll
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\refint\DummyClient.dll
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.pdb
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.genruntimeconfig.cache
+D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\ref\DummyClient.dll
