@@ -13,19 +13,15 @@ namespace ServerCore
         {
             try
             {
-                // 받는다.
-                byte[] recvBuff = new byte[1024];
-                int recvBytes = clientSocket.Receive(recvBuff);
-                string recvData = Encoding.UTF8.GetString(recvBuff, 0, recvBytes);
-                Console.WriteLine($"[From client] {recvData}");
+                Session session = new Session();
+                session.Start(clientSocket);
+                
+                byte[] sendBuff = Encoding.UTF8.GetBytes("Welcome to MMORPG Server !");
+                session.Send(sendBuff);
 
-                // 보낸다.
-                byte[] sendBuff = Encoding.UTF8.GetBytes("Welcome to MMORPG Server ! ");
-                clientSocket.Send(sendBuff);
+                Thread.Sleep(1000);
 
-                // 쫒아낸다.
-                clientSocket.Shutdown(SocketShutdown.Both);
-                clientSocket.Close();
+                session.Disconnect();
             }
             catch (Exception e)
             {
