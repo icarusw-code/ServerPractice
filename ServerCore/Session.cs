@@ -16,7 +16,7 @@ namespace ServerCore
         RecvBuffer _recvBuffer = new RecvBuffer(1024);
 
         object _lock = new object();
-        Queue<byte[]> _sendQueue = new Queue<byte[]>();
+        Queue<ArraySegment<byte>> _sendQueue = new Queue<ArraySegment<byte>>();
         List<ArraySegment<byte>> _pendingList = new List<ArraySegment<byte>>();
         // send는 실제로 완료할때 까지는 queue에 다 넣어주고
         // 완료되면 sendQueue를 확인해서
@@ -39,7 +39,7 @@ namespace ServerCore
             RegisterRecv();
         }
 
-        public void Send(byte[] sendBuff)
+        public void Send(ArraySegment<byte> sendBuff)
         {
             lock(_lock)
             {                
@@ -75,8 +75,8 @@ namespace ServerCore
             _pendingList.Clear();
             while (_sendQueue.Count > 0)
             {
-                byte[] buff = _sendQueue.Dequeue();
-                _pendingList.Add(new ArraySegment<byte>(buff, 0, buff.Length)); // 배열, 시작인덱스, 길이
+                ArraySegment<byte> buff = _sendQueue.Dequeue();
+                _pendingList.Add(buff);
             }
 
             _sendArgs.BufferList = _pendingList;
@@ -154,13 +154,10 @@ namespace ServerCore
                     }
 
                     // Read 커서 이동
-                    if(_recvBuffer.OnRead(processLen) == false)
+                    if (_recvBuffer.OnRead(processLen) == false)
                     {
-                        Disconnect();
-                        return;
+                        RegisterRecv();
                     }
-
-                    RegisterRecv();                   
                 }
                 catch (Exception e)
                 {
