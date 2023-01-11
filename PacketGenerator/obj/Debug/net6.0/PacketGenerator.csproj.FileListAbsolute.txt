@@ -1,0 +1,15 @@
+D:\Unity_Project\서버\Server\PacketGenerator\bin\Debug\net6.0\PacketGenerator.exe
+D:\Unity_Project\서버\Server\PacketGenerator\bin\Debug\net6.0\PacketGenerator.deps.json
+D:\Unity_Project\서버\Server\PacketGenerator\bin\Debug\net6.0\PacketGenerator.runtimeconfig.json
+D:\Unity_Project\서버\Server\PacketGenerator\bin\Debug\net6.0\PacketGenerator.dll
+D:\Unity_Project\서버\Server\PacketGenerator\bin\Debug\net6.0\PacketGenerator.pdb
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.csproj.AssemblyReference.cache
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.AssemblyInfoInputs.cache
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.AssemblyInfo.cs
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.csproj.CoreCompileInputs.cache
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.dll
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\refint\PacketGenerator.dll
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.pdb
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.genruntimeconfig.cache
+D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\ref\PacketGenerator.dll
