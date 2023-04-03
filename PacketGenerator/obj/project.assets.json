@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {}
+    "C:\\Users\\Choi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Unity_Project\\서버\\Server\\PacketGenerator\\PacketGenerator.csproj",
+      "projectUniqueName": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\PacketGenerator\\PacketGenerator.csproj",
       "projectName": "PacketGenerator",
-      "projectPath": "D:\\Unity_Project\\서버\\Server\\PacketGenerator\\PacketGenerator.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\Unity_Project\\서버\\Server\\PacketGenerator\\obj\\",
+      "projectPath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\PacketGenerator\\PacketGenerator.csproj",
+      "packagesPath": "C:\\Users\\Choi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\PacketGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Choi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

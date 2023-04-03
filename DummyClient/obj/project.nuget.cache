@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ea+6xyU10gfCcjHuyeHp8rVcgYc3BwHP/Yao2OF8mJvMsEzhnVqv/iyrp1mMXBQW7XK9EOz2NMbT1xFfuORLKQ==",
+  "dgSpecHash": "vomGINM7N2tGkvgLheHIBxO7u1C8WPgXABf1XxsqJr/+uAnR5fY46r/HFrwngxs8BevfOqWWoMh5Rjojd96LZw==",
   "success": true,
-  "projectFilePath": "D:\\Unity_Project\\서버\\Server\\DummyClient\\DummyClient.csproj",
+  "projectFilePath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\DummyClient\\DummyClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

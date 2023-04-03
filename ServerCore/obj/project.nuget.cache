@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z/WPop1xjfuozJVLBC22gUPYlq1BKKfECBHFV3DdmoWGnpyPOj040RtFVH9tYhskSaCjej4eNeH85K9M5HWfpg==",
+  "dgSpecHash": "XvrZx2BsNqIL+A/edy/0T8i++46xeuYwn8EIJyBa9PRlaAup6NYCgp9JbpvzDE3xGlG10cY3erZ8P8nwekstYg==",
   "success": true,
-  "projectFilePath": "D:\\Unity_Project\\서버\\Server\\ServerCore\\ServerCore.csproj",
+  "projectFilePath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\ServerCore\\ServerCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

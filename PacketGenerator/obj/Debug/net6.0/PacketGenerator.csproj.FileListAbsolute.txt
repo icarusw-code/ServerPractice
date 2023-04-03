@@ -13,3 +13,18 @@ D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\refint\PacketGen
 D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.pdb
 D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\PacketGenerator.genruntimeconfig.cache
 D:\Unity_Project\서버\Server\PacketGenerator\obj\Debug\net6.0\ref\PacketGenerator.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\bin\Debug\net6.0\PacketGenerator.exe
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\bin\Debug\net6.0\PacketGenerator.deps.json
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\bin\Debug\net6.0\PacketGenerator.runtimeconfig.json
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\bin\Debug\net6.0\PacketGenerator.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\bin\Debug\net6.0\PacketGenerator.pdb
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.csproj.AssemblyReference.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.AssemblyInfoInputs.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.AssemblyInfo.cs
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\refint\PacketGenerator.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.pdb
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\PacketGenerator.genruntimeconfig.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\PacketGenerator\obj\Debug\net6.0\ref\PacketGenerator.dll

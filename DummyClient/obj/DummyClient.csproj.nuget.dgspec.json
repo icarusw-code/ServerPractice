@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Unity_Project\\서버\\Server\\DummyClient\\DummyClient.csproj": {}
+    "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\DummyClient\\DummyClient.csproj": {}
   },
   "projects": {
-    "D:\\Unity_Project\\서버\\Server\\DummyClient\\DummyClient.csproj": {
+    "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\DummyClient\\DummyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Unity_Project\\서버\\Server\\DummyClient\\DummyClient.csproj",
+        "projectUniqueName": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\DummyClient\\DummyClient.csproj",
         "projectName": "DummyClient",
-        "projectPath": "D:\\Unity_Project\\서버\\Server\\DummyClient\\DummyClient.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Unity_Project\\서버\\Server\\DummyClient\\obj\\",
+        "projectPath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\DummyClient\\DummyClient.csproj",
+        "packagesPath": "C:\\Users\\Choi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\DummyClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Choi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Unity_Project\\서버\\Server\\ServerCore\\ServerCore.csproj": {
-                "projectPath": "D:\\Unity_Project\\서버\\Server\\ServerCore\\ServerCore.csproj"
+              "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\ServerCore\\ServerCore.csproj": {
+                "projectPath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\ServerCore\\ServerCore.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Unity_Project\\서버\\Server\\ServerCore\\ServerCore.csproj": {
+    "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\ServerCore\\ServerCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Unity_Project\\서버\\Server\\ServerCore\\ServerCore.csproj",
+        "projectUniqueName": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\ServerCore\\ServerCore.csproj",
         "projectName": "ServerCore",
-        "projectPath": "D:\\Unity_Project\\서버\\Server\\ServerCore\\ServerCore.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\Unity_Project\\서버\\Server\\ServerCore\\obj\\",
+        "projectPath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\ServerCore\\ServerCore.csproj",
+        "packagesPath": "C:\\Users\\Choi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Choi\\OneDrive\\바탕 화면\\Game\\ServerPractice\\ServerCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Choi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

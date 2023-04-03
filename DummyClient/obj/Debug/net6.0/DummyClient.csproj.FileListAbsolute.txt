@@ -16,3 +16,21 @@ D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\ref\DummyClient.dll
 D:\Unity_Project\서버\Server\DummyClient\bin\Debug\net6.0\ServerCore.dll
 D:\Unity_Project\서버\Server\DummyClient\bin\Debug\net6.0\ServerCore.pdb
 D:\Unity_Project\서버\Server\DummyClient\obj\Debug\net6.0\DummyClient.csproj.CopyComplete
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\bin\Debug\net6.0\DummyClient.exe
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\bin\Debug\net6.0\DummyClient.deps.json
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\bin\Debug\net6.0\DummyClient.runtimeconfig.json
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\bin\Debug\net6.0\DummyClient.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\bin\Debug\net6.0\DummyClient.pdb
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\bin\Debug\net6.0\ServerCore.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\bin\Debug\net6.0\ServerCore.pdb
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.csproj.AssemblyReference.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.AssemblyInfoInputs.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.AssemblyInfo.cs
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.csproj.CoreCompileInputs.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.csproj.CopyComplete
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\refint\DummyClient.dll
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.pdb
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\DummyClient.genruntimeconfig.cache
+C:\Users\Choi\OneDrive\바탕 화면\Game\ServerPractice\DummyClient\obj\Debug\net6.0\ref\DummyClient.dll
