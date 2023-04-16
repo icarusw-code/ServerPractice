@@ -4,12 +4,14 @@ using System.Net.Sockets;
 using System.Text;
 using static System.Collections.Specialized.BitVector32;
 using ServerCore;
+using Server.Session;
 
 namespace Server
 {
     class Program
     {
         static Listener _listener = new Listener();
+        public static GameRoom Room = new GameRoom();
 
         static void Main(string[] args)
         {
@@ -21,7 +23,7 @@ namespace Server
             IPAddress ipAddr = ipHost.AddressList[0];
             IPEndPoint endPoint = new IPEndPoint(ipAddr, 7777);
 
-            _listener.Init(endPoint, () => { return new ClientSession(); });
+            _listener.Init(endPoint, () => { return SessionManager.Instance.Generate(); });
 
             Console.WriteLine("Listening....");
 
