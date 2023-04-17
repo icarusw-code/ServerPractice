@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 class PcketHandler
 {
-    public static void C_ChatReqHandler(PacketSession session, IPacket packet)
+    public static void C_ChatHandler(PacketSession session, IPacket packet)
     {
         C_Chat chatPacket = packet as C_Chat;
         ClientSession clientSession = session as ClientSession;
