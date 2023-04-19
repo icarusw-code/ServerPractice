@@ -10,7 +10,7 @@ namespace ServerCore
     {
         public static ThreadLocal<SendBuffer> CurrentBuffer = new ThreadLocal<SendBuffer>(() => { return null; });
 
-        public static int ChnkSize { get; set; } = 4096 * 100;
+        public static int ChnkSize { get; set; } = 65535 * 100;
 
         public static ArraySegment<byte> Open(int reserveSize)
         {
